@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHunt - Signup</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form class="signup-form" id="signup-form" action="/signup" method="post">
+        <h2>Signup for MovieHunt</h2>
+        <label class="box-head" for="username">Username</label>
+        <input class="box" type="text" id="username" name="username" required>
+
+        <label class="box-head" for="email">Email</label>
+        <input class="box" type="email" id="email" name="email" required>
+
+        <label class="box-head" for="password">Password</label>
+        <input class="box" type="password" id="password" name="password" required>
+
+        <label class="box-head" for="confirm-password">Confirm Password</label>
+        <input class="box" type="password" id="confirm-password" name="confirm-password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+</html>
+
