@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #151515;
+    background-color: #150c31;
 }
 
 /* navbar */
@@ -35,6 +35,26 @@ nav li {
     background-color:#EEEEEE;
 }
 
+.mode{
+    background-color:#EEEEEE;
+    font-size:25px;
+    color: #151515;
+    text-decoration: none;
+    font-size:1.7rem;
+    border: 2px solid transparent;
+    border-radius:10%;
+    padding:5px;
+}
+
+.light{
+    background-color: white;
+    color:#150c31;
+}
+
+.black{
+    background-color: #150c31;
+    color:white;
+}
 .navhome i{
     font-size:25px;
 }
